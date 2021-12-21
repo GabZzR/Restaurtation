@@ -8,10 +8,94 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
     <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/52a94cf2da.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-cat"></i>
+            <h1>Cat Eater</h1>
+        </div>
+        <ul>
+            <li>
+                <a href="Menus"></a> Menus</li>
+            <li>
+                <a href="reservations"></a>Réservations</li>
+            <li>
+                <a href="#"></a>Contact</li>
+            <li>
+                <a href="#"></a>Notre Equipe</li>
+            <li>
+                <a href="#"></a>Réseaux Sociaux</li>
+        </ul>
+    </header>
 
+    <section class="menu">
+        <h1 class="nosmenus">Nos menus</h1>
+        <img src="img/cat.jpg" alt="">
+        <img src="img/cat.jpg" alt="">
+        <img src="img/cat.jpg" alt="">
+        <img src="img/cat.jpg" alt="">
+        <img src="img/cat.jpg" alt="">
+        <img src="img/cat.jpg" alt="">
+    </section>
+    <section class="reservation">
+        <div>
+            <h1 class="reserver">Réserver</h1>
+        </div>
+        <div>
+            <form action="">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="numero">Numéro</label>
+                    <input type="tel" required>
+                </div>
+                <div>
+                    <label for="heure">Heure d'arrivée</label>
+                    <input type="time" required>
+                </div>
+                <button>
+                    Envoyer
+                </button>
+            </form>
+        </div>
+    </section>
+    <section class="contact">
+        <div>
+            <h2 class="horaire">Nos horaires :</h2>
+            <h4>Du mardi au samedi de 11h à 23h</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1391.5445865303718!2d4.804641687603488!3d45.76940311485592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb7391fcf843%3A0xf4170493513eaa9f!2sCCI%20Formation!5e0!3m2!1sfr!2sfr!4v1640079175117!5m2!1sfr!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <section class="equipe">
+        <h1 class="equipe_titre">Notre Equipe</h1>
+        <figure>
+            <img src="img/cat.jpg" alt=""></figure>
+        <figcaption>Pierre</figcaption>
+        <figure>
+            <img src="img/cat.jpg" alt=""></figure>
+        <figcaption>Paul</figcaption>
+        <figure>
+            <img src="img/cat.jpg" alt=""></figure>
+        <figcaption>Jacques</figcaption>
+    </section>
+    <footer>
+        <div class="social">
+            <h1>Nos Réseaux</h1>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </footer>
 </body>
 
 </html>

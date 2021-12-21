@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*----------HEADER-------------*/
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: 55px;
+    background-color: aqua;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*-----------MENU------------*/
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 50px;
+    background-color: violet;
+}
+
+.nosmenus {
+    display: flex;
+    justify-content: center;
+}
+
+.menu img {
+    width: 100%;
+}
+
+
+/*-----------RESERVATION------------*/
+
+.reservation {
+    background-color: khaki;
+}
+
+.reserver {
+    margin: 0px;
+    padding: 5px;
+}
+
+
+/*-----------CONTACT------------*/
+
+.contact {
+    background-color: navajowhite;
+}
+
+.horaire {
+    margin: 0px;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/*-----------EQUIPE------------*/
+
+.equipe {
+    background-color: yellowgreen;
+}
+
+.equipe_titre {
+    margin: 0px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    width: 220px;
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/*----------RESEAUX-------------*/
